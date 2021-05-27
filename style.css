@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(150, 67, 206);
+}
+.name_of_objects
+  {
+    color:rgb(146, 221, 240);
+    width: 15px;
+  }
+  #camera
+ {
+     border: 2px dashed black; 
+     width: 350px;
+     height: 300px;
+ }
+  #result_object_name  , #result_object_accuracy
+  {
+    color:chartreuse;
+    font-size: 25px;
+  }
+ .header
+{
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+
+.logo
+{
+	width: 80px;height: 70px;margin-top: 30px;border-radius: 40px;
+}
+
+#login_button
+{
+	width: 80%;border-radius: 15px;
+}
+#medicine_name
+{
+  width:550px;
+  height:50px;
+}
+#logout
+{
+	font-size: 20px; 
+  margin-right: 200;
+}
+label{
+  font-size: 25px;
+}
+
