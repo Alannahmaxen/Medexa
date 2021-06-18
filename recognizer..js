@@ -88,6 +88,6 @@ var utterThis = new SpeechSynthesisUtterance(speak_data);
     function logout() {
       localStorage.removeItem("user_name");
       localStorage.removeItem("room_name");
-          window.location = "sign_in.html";
+          window.location = "index.html";
       }
   

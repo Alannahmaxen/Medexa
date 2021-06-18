@@ -9,28 +9,26 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" type="text/css" href="style.css">
-<script src="checklist.js"></script>
+<script src="sign_in.js"></script>
 </head>
 <body>
-	<button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
 <center>
 	<h1 class="header">	
 		Medexa	<sup>
         </sup>
 </h1>
-<h2 id="Name"> </h2>
-<br>
-<br>
-<label>Add your medicine here</label>
-<input type="text" id="medicine_name" class="form-control" placeholder="#Medicine Name">
-<br>
-<button  onclick="addMedicine();" class="btn btn-success">Add Medicine</button>
-<button onclick="check_medicine();" class="btn btn-warning">Check Medicine</button>
-		<h3 class="color_white">Medicine List</h3>
-	<div id="output"></div>
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+	<img src="png-clipart-stethoscope-medicine-stethoscope-cartoon-love-heart.png" class="logo">
+		<h3 >Keep track of your health </h3>
+		<h4 >Join Medexa today</h4>
+		<div class="form-group">
+		  <label >User Name:</label>
+		  <input type="text" id="user_name" class="form-control" placeholder="User Name">
 
-	</center>
-	</body>
-	</html>
-	
-	
+		</div>
+		<button id="login_button" class="btn btn-primary" onclick="addUser()">Log in</button>
+		<br><br>
+	</div>
+</center>
+</body>
+</html>

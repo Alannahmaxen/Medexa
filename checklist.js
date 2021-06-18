@@ -12,7 +12,7 @@ var firebaseConfig = {
 
 user_name = localStorage.getItem("user_name");
 
-document.getElementById("user_name").innerHTML = "Welcome " + user_name + "!";
+document.getElementById("Name").innerHTML = "Welcome " + user_name + "!";
 
 function check_medicine() {
     window.location ="recognizer.html";
@@ -21,5 +21,5 @@ function check_medicine() {
 function logout() {
     localStorage.removeItem("user_name");
     localStorage.removeItem("room_name");
-        window.location = "sign_in.html";
+        window.location = "index.html";
     }
